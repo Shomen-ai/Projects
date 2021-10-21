@@ -32,7 +32,7 @@ struct HourlyViewModel {
     }
     
     var temp: String{
-        return String(format: "🌡 %.f°C - %.f°C", today.temp, today.temp)
+        return String(format: "🌡 %.f°C", today.temp)
     }
     
     var pop: String{
